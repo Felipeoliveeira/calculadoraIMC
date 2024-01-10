@@ -1,2 +1,48 @@
 @charset "UTF-8";
 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+}
+
+#container_main{
+    width: 100vw;
+    height: 100vh;
+    background: black url(pexels-ivan-samkov-4164763.jpg) right center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_form{
+   background-color: #ced3dc7d;
+   width: 40%;
+   height: 60%;
+   padding: 50px;
+   border-radius: 8px;
+   text-align: center;
+}
+ 
+.title{
+    color: #333333;
+    font-size: 2rem; 
+    
+}
+
+.cor{
+    color: #1A936F;
+    text-decoration: underline;
+}
+
+.container_dados{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+input[type="number"]{
+    width: 100%;
+}
