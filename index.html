@@ -6,18 +6,22 @@
     <title>Document</title>
     <link rel="stylesheet" href="style/img/estilo.css">
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 <body>
     <main id="container_main">
         <form action="" class="container_form">
             <h1 class="title">Calculadora <strong class="cor">IMC</strong></h1>   
             <div class="container_dados">
                 <div class="container-input">
-                    <label for="">Peso em Kg</label>
-                    <input type="number">
+                    <label for="kg">Peso em Kg</label>
+                    <span class="material-symbols-outlined">weight</span>
+                    <input type="number" id="kg" placeholder="Ex: 60">
                 </div>
                 <div class="container-input">
-                    <label for="">Altura em centímetros</label>
-                    <input type="number">
+                    <label for="cm">Altura em centímetros</label>
+                    <span class="material-symbols-outlined">square_foot</span>
+                    <input type="number" id="cm" placeholder="Ex: 1.73">
                 </div>
             </div>
         </form>

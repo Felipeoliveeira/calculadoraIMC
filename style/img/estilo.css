@@ -48,8 +48,31 @@
     flex-direction: column;
     text-align: justify;
     gap: 10px;
+    position: relative;
+}
+
+label{
+    font-size: 1rem;
+}
+
+.material-symbols-outlined{
+    position: absolute;
+    bottom: 10%;
+    left: 2%;
+    color: rgb(67, 64, 64);
 }
 
 input[type="number"]{
-   
+   background-color:#1A936F ;
+   color: black;
+   border:none;
+   border-radius: 8px;
+   padding: 10px;
+   text-align: center;
+}
+
+input::placeholder{
+    color: rgb(67, 64, 64);
+    position: absolute;
+    left: 50%;
 }
