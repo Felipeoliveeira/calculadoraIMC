@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+:root {
+    --cor-primaria: #333333;
+    --cor-secundaria: #1A936F;
+    --cor-de-fundo-branco: #ced3dc7d;
+    --cor-preta: black;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +16,7 @@
 #container_main{
     width: 100vw;
     height: 100vh;
-    background: black url(pexels-ivan-samkov-4164763.jpg) right center no-repeat;
+    background: var(--cor-preta) url(pexels-ivan-samkov-4164763.jpg) right center no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -17,7 +24,7 @@
 }
 
 .container_form{
-   background-color: #ced3dc7d;
+   background-color: var(--cor-de-fundo-branco);
    width: 40%;
    height: 60%;
    padding: 50px;
@@ -26,12 +33,12 @@
 }
  
 .title{
-    color: #333333;
+    color: var(--cor-primaria);
     font-size: 2rem; 
 }
 
 .cor{
-    color: #1A936F;
+    color: var(--cor-secundaria);
     text-decoration: underline;
 }
 
@@ -40,7 +47,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    border-bottom: 1px solid #333333;
+    border-bottom: 1px solid var(--cor-primaria);
     gap: 5px;
 }
 
@@ -65,15 +72,15 @@ label{
 }
 
 input[type="number"]{
-   background-color:#1A936F ;
-   color: black;
+   background-color:var(--cor-secundaria) ;
+   color: var(--cor-primaria);
    border:none;
    border-radius: 8px;
    padding: 10px;
    text-align: center;
 }
-input[type="submit"]{
-    background-color: #1A936F;
+.botao_calc{
+    background-color: var(--cor-secundaria);
     border: transparent;
     border-radius: 8px;
     width: 50%;
