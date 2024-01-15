@@ -28,7 +28,7 @@
    width: 40%;
    height: 60%;
    padding: 2.5rem;
-   border-radius: 8px;
+   border-radius: 0.5rem;
    text-align: center;
 }
  
@@ -48,14 +48,14 @@
     flex-direction: column;
     justify-content: space-evenly;
     border-bottom: 1px solid var(--cor-primaria);
-    gap: 5px;
+    gap: 0.313rem;
 }
 
 .container-input{
     display: flex;
     flex-direction: column;
     text-align: justify;
-    gap: 5px;
+    gap: 0.313rem;
     position: relative;
 }
 
@@ -75,14 +75,14 @@ input[type="number"]{
    background-color:var(--cor-secundaria) ;
    color: var(--cor-primaria);
    border:none;
-   border-radius: 8px;
+   border-radius: 0.5rem;
    padding: 10px;
    text-align: center;
 }
 .botao_calc{
     background-color: var(--cor-secundaria);
     border: transparent;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     width: 50%;
     padding: 5px;
     margin: auto;
@@ -92,4 +92,12 @@ input::placeholder{
     color: rgb(67, 64, 64);
     position: absolute;
     left: 40%;
+}
+
+.container_resultado {
+    text-align: justify;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 4px;
+
 }
