@@ -16,7 +16,7 @@
 #container_main{
     width: 100vw;
     height: 100vh;
-    background: var(--cor-preta) url(img/pexels-anete-lusina-16513596.jpg) center center no-repeat;
+    background: var(--cor-preta) url(img/pexels-anete-lusina-16513602.jpg) center bottom no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -24,17 +24,17 @@
 }
 
 .container_form{
+   text-align: center;
    background-color: var(--cor-de-fundo-branco);
    width: 40%;
    height: 60%;
-   padding: 2.5rem;
+   padding: 2rem;
    border-radius: 0.5rem;
-   text-align: center;
 }
  
 .title{
     color: var(--cor-primaria);
-    font-size: 2rem; 
+    font-size: 1.5rem;
 }
 
 .cor{
@@ -99,10 +99,11 @@ input::placeholder{
     border-radius: 10px;
     font-weight: bold;
     margin-top: 4px;
-
 }
 
 a{
-    text-decoration: none;
     color: var(--cor-primaria);
+    position: relative;
+    top: 50px;
 }
+

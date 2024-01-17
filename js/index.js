@@ -13,7 +13,6 @@ function mostrarResultado() {
       campoResultado.innerHTML = `<ul><li>${valorResultado}</li><li>${abaixoDoPeso}</li></ul>`
    } else {
       campoResultado.innerHTML = `<ul><li>${valorResultado}</li><li>${pesoNormal}</li></ul>`
-      console.log('ok')
    } if (valorResultado >= 25){
       campoResultado.innerHTML = `<ul><li>${valorResultado}</li><li>${acimaPeso}</li></ul>`
    }
