@@ -1,6 +1,6 @@
 let abaixoDoPeso = "Você está em abaixo do peso :(";
 let pesoNormal = "Seu peso está ideal :)";
-let acimaPeso = "Você está acima do peso! Cuida!"
+let acimaPeso = "Você está acima do peso! Vá ao nutricionista!"
 
 function mostrarResultado() {
    let kilos = document.getElementById('kg').value;
